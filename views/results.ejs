@@ -1,0 +1,56 @@
+<% include partials/header %>
+
+<h1><%= data[0] %></h1><br>
+
+<table class="table table-stripped">    
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Links</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for(var i=0,j=0,k=0 ; i<data[1].length, j<data[2].length, k<data[3].length ; i++,j++,k++){ %>
+                <tr>
+                    <td><%= data[1][i] %></td>
+                    <td><%= data[2][j] %></td>
+                    <td><a><%= data[3][k] %></a></td>
+                </tr>
+            <% } %>
+    </tbody>
+</table>
+
+
+<a href="/"><button>Search Again!</button></a>
+
+<% include partials/footer %>
+
+<!-- <tr>
+        <th>Title</th>
+    </tr>
+    <% data[1].forEach(function(x){ %>
+    <tr>
+        <td><%= x %></td>
+    </tr>
+    <% }) %>
+</table>
+<table id="t2">
+    <tr>
+        <th>Description</th>
+    </tr>
+    <% data[2].forEach(function(x){ %>
+    <tr>
+        <td><%= x %></td>
+    </tr>
+    <% }) %>
+</table>
+<table id="t3">
+    <tr>
+        <th>Links</th>
+    </tr>
+    <% data[3].forEach(function(x){ %>
+    <tr>
+        <td><a href="<%= x %>"><%= x %></a></td>
+    </tr>
+    <% }) %> -->

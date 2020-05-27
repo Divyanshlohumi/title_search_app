@@ -1,0 +1,37 @@
+/* table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+#t1{
+    float: left;
+    width: 20%;
+}
+#t2{
+    float: left;
+    width: 40%;
+}
+#t3{
+    float: left;
+    width: 20%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+button{
+    float: left;
+    color: aqua;
+    padding: 8px;
+} */
+
+form{
+  margin: 25%;
+}
